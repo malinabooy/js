@@ -3,23 +3,23 @@
 Создать переменные num1, num2 которые пользователь вводит с клавиатуры
 Проверьте, что переменная num1 равна или меньше 1, а переменная num2 больше или равна 3.
  */
-// let num1 = prompt('Введите первое число');
-// let num2 = prompt('Введите второе число');
+let num1 = prompt('Введите первое число');
+let num2 = prompt('Введите второе число');
 
-// if (num1 === 1) {
-//     console.log('Число равно 1')
-// } else if(num1 < 1){
-//     console.log('Число меньше 1')
-// }else{
-//     console.log('Число больше 1')
-// }
-// if (num2 === 3) {
-//     console.log('Число равно 3')
-// } else if(num2 < 3){
-//     console.log('Число меньше 3')
-// }else{
-//     console.log('Число больше 3')
-// }
+if (num1 === 1) {
+    console.log('Число равно 1')
+} else if(num1 < 1){
+    console.log('Число меньше 1')
+}else{
+    console.log('Число больше 1')
+}
+if (num2 === 3) {
+    console.log('Число равно 3')
+} else if(num2 < 3){
+    console.log('Число меньше 3')
+}else{
+    console.log('Число больше 3')
+}
 
 
 /**
@@ -34,7 +34,7 @@ console.log('---');
 }
  */
 
-//test === true ? console.log('+++') : console.log('---');
+test === true ? console.log('+++') : console.log('---');
 
 
 /**
